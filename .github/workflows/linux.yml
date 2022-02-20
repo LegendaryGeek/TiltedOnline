@@ -1,6 +1,7 @@
 name: Build linux
 
 on:
+  workflow_dispatch:
   pull_request:
   push:
 
